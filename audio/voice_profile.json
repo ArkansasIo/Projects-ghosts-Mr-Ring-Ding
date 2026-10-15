@@ -1,0 +1,18 @@
+{
+  "name": "Ring-A-Ding Voice",
+  "style": "original theatrical cartoon voice",
+  "description": "Bright, playful, slightly bell-like cartoon voice with energetic articulation, expressive pitch changes, and a warm conversational delivery.",
+  "pitch": 1.12,
+  "rate": 1.02,
+  "volume": 0.95,
+  "preferred_emotion_profiles": {
+    "happy": {"pitch": 1.16, "rate": 1.08},
+    "neutral": {"pitch": 1.10, "rate": 1.00},
+    "thinking": {"pitch": 1.05, "rate": 0.90},
+    "surprised": {"pitch": 1.24, "rate": 1.15},
+    "sad": {"pitch": 0.94, "rate": 0.88},
+    "angry": {"pitch": 1.08, "rate": 1.12}
+  },
+  "sample_line": "Ring-a-ding! Hello there! What shall we explore today?",
+  "note": "The voice profile is an original design and does not imitate a specific actor, copyrighted recording, or existing character performance."
+}
