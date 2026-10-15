@@ -1,0 +1,9 @@
+[
+  {"word":"hello","definition":"a greeting used when meeting someone","part_of_speech":"interjection","example_sentence":"Hello, how are you?"},
+  {"word":"cartoon","definition":"an animated or illustrated work","part_of_speech":"noun","example_sentence":"The cartoon character waved."},
+  {"word":"character","definition":"a person or figure represented in a story","part_of_speech":"noun","example_sentence":"The character spoke to the audience."},
+  {"word":"artificial","definition":"made or produced rather than occurring naturally","part_of_speech":"adjective","example_sentence":"The system uses artificial intelligence."},
+  {"word":"intelligence","definition":"the ability to learn, reason, and solve problems","part_of_speech":"noun","example_sentence":"The agent uses artificial intelligence."},
+  {"word":"sentence","definition":"a grammatical unit expressing a complete thought","part_of_speech":"noun","example_sentence":"This is a complete sentence."},
+  {"word":"paragraph","definition":"a group of related sentences forming a unit of writing","part_of_speech":"noun","example_sentence":"The paragraph explains the idea."}
+]
