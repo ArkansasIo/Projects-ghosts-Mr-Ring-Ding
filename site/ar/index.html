@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Ring-A-Ding AR</title>
+  <link rel="stylesheet" href="./ar.css">
+</head>
+<body>
+  <main id="arApp">
+    <section class="panel">
+      <p class="eyebrow">PROJECTS GHOSTS</p>
+      <h1>Ring-A-Ding Augmented Reality</h1>
+      <p>Place the original blue cartoon character into your surroundings.</p>
+      <button id="startAR">Start AR</button>
+      <button id="demoMode">Use camera demo</button>
+      <p id="status">AR is waiting to start.</p>
+    </section>
+    <div id="scene" aria-label="Augmented reality scene">
+      <div id="ring" class="ring" aria-label="Ring-A-Ding">
+        <div class="bell">♩</div>
+        <div class="eyes"><i></i><i></i></div>
+        <div class="mouth"></div>
+        <div class="bow">◆</div>
+      </div>
+      <div id="reticle" hidden></div>
+    </div>
+    <section class="controls">
+      <button data-action="wave">Wave</button>
+      <button data-action="happy">Happy</button>
+      <button data-action="think">Think</button>
+      <button data-action="dream">Dream</button>
+      <button data-action="follow">Follow me</button>
+    </section>
+  </main>
+  <script type="module" src="./ar.js"></script>
+</body>
+</html>
