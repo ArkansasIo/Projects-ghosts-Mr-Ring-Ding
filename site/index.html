@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mr. Ring-Ding interactive cartoon AI laboratory">
+  <title>Mr. Ring-Ding — Interactive AI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <p class="eyebrow">PROJECTS GHOSTS</p>
+        <h1>Mr. Ring-Ding</h1>
+        <p>Interactive cartoon AI laboratory</p>
+      </div>
+      <span id="status" class="status">LOCAL DEMO</span>
+    </header>
+
+    <section class="stage" aria-label="Ring-Ding interactive stage">
+      <div id="backdrop" class="backdrop">
+        <div id="ring" class="ring" aria-label="Mr. Ring-Ding">
+          <div class="bell">♩</div>
+          <div class="face"><span class="eye left"></span><span class="eye right"></span><span class="nose"></span><span id="mouth" class="mouth"></span></div>
+          <div class="bow">◆</div>
+        </div>
+        <div id="lamp" class="object lamp">💡</div>
+        <div id="chest" class="object chest">🧰</div>
+        <div id="globe" class="object globe">🌎</div>
+        <div id="door" class="object door">🚪</div>
+      </div>
+      <div class="controls">
+        <button data-action="wave">Wave</button>
+        <button data-action="wander">Wander</button>
+        <button data-action="lamp">Activate lamp</button>
+        <button data-action="chest">Open chest</button>
+        <button data-action="globe">Inspect globe</button>
+        <button data-action="dream">Dream</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div>
+        <h2>Behavior console</h2>
+        <p id="speech">Ring-a-ding! I'm ready to explore.</p>
+      </div>
+      <pre id="telemetry">emotion=happy\ngesture=idle\nworld_action=none\ntarget=none</pre>
+    </section>
+
+    <section class="connect">
+      <h2>Local AI connection</h2>
+      <p>GitHub Pages hosts the visual client. Python, Ollama, and MySQL remain on your server or computer.</p>
+      <label>API endpoint <input id="api" placeholder="https://your-server.example/api" autocomplete="off"></label>
+      <button id="saveApi">Save endpoint</button>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
